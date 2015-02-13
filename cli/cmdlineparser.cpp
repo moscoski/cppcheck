@@ -114,6 +114,8 @@ bool CmdLineParser::ParseFromArgs(int argc, const char* const argv[])
 {
     bool def = false;
     bool maxconfigs = false;
+    /*  Exemplo de comentário que será logado
+        no GitHub */
 
     for (int i = 1; i < argc; i++) {
         if (std::strcmp(argv[i], "--version") == 0) {
